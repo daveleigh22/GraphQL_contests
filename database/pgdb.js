@@ -1,6 +1,6 @@
 const { orderedFor } = require('../lib/util');
 const humps = require('humps');
-const slug = require('../lib/util');
+const {slug} = require('../lib/util');
 
 module.exports = pgPool => {
 
